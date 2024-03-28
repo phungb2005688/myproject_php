@@ -1,0 +1,82 @@
+/* ================================= TRANG CHỦ ======================= */
+/* #main{
+    float: left;
+} */
+.sidebar{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+}
+ ul.list_sidebar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* border: 1px solid black; */
+    list-style: none;
+    line-height: 27px;
+}
+ul.list_sidebar li div:hover{
+    background: #ddffdd;
+}
+ul.list_sidebar li{
+    margin: 7px;
+    padding: 5px;    
+}
+
+ul.list_sidebar li a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: rgb(0, 0, 138);
+}
+
+
+.maincontent{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 79%;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+ul.product_list li {
+    width: 18%;
+    /* border: 2px solid rgb(251, 241, 241); */
+    border: 2px solid #F9F5F6;
+    margin: 5px;
+    float: left;
+    background: #F9F5F6;
+    border-radius: 10px;
+
+}
+ul.product_list li img{
+    height: 200px;
+    width: 100%;
+}
+
+p.title_produce{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p.price_produce{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
